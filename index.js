@@ -2,7 +2,7 @@ var http = require("http");
 
 var server = http.createServer(function (request, response) {
   response.writeHead(200, { "Content-Type": "text/plain" });
-  response.end("Version 8");
+  response.end("Version 10");
   console.log("Got a connection");
 });
 server.listen(80, "::0");
